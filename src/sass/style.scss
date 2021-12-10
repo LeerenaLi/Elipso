@@ -1,0 +1,37 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #5B5766;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #554D89;
+    font-weight: 700;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}

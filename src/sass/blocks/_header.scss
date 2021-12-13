@@ -1,0 +1,70 @@
+.header {
+    &__wrapper {
+        padding-top: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        margin-right: 55px;
+    }
+    &-nav {
+        display: flex;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+        &-item {
+            position: relative;
+            margin-right: 30px;
+            padding: 20px 0;
+            &:nth-child(6) {
+                margin-right: 0;
+            }
+            &:hover {
+                .header__submenu {
+                    display: block;
+                }
+            }
+        }
+        &-link {
+            font-size: 16px;
+            color: #5B5766;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+                text-shadow: 0 0 1px $main-color;
+            }
+            &_active {
+                font-weight: bold;
+                color: #554D89;
+            }
+        }
+    }
+    &__submenu {
+        display: none;
+        width: 235px;
+        position: absolute;
+        top: 55px;
+        left: -27px;
+        box-shadow: 0px 0px 20px #E1E4ED;
+        border-radius: 10px;
+        padding: 30px;
+        &-item {
+            margin-right: 0;
+            margin-bottom: 10px;
+            padding: 0;
+            &:nth-child(5) {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &-accounts {
+        &__span {
+            font-family: 'Nunito', sans-serif;
+            font-size: 16px;
+            color: #6852ed;
+            margin: 0 6px;
+        }
+    }
+}

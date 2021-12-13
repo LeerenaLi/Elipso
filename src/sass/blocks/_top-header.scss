@@ -1,0 +1,37 @@
+.top-header {
+    padding-top: 24px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 27px;
+        color: #716C80;
+    }
+    &__phone {
+        display: flex;
+        align-items: center;
+        a {
+            font-size: 16px;
+            line-height: 16px;
+            color: #716C80;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+            }
+        }  
+    }
+    &__svg {
+        margin-right: 10px;
+    }
+    
+}
+a.top-header__svg {
+    &:hover {
+        svg path {
+            fill: $main-color;
+        }
+    }
+}

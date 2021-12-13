@@ -19,6 +19,7 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -35,3 +36,15 @@ h1, h2, h3, p {
     width: 1146px;
     margin: 0 auto;
 }
+
+.divider {
+    border: 0;
+    border-bottom: 1px solid #E1E4ED;
+    margin-top: 20px;
+}
+
+
+
+@import 'blocks/top-header';
+@import 'blocks/header';
+@import 'blocks/buttons';

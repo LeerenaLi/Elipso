@@ -1,0 +1,21 @@
+.btn {
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.btn-light {
+    padding: 5px 19px;
+    font-size: 14px;
+    color: #6852ED;
+    border: 1px solid #6852ED;
+    background-color: #fff;
+    &:hover {
+        color: #fff;
+        border: none;
+        @include gradient;
+    }
+}

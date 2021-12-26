@@ -1,0 +1,30 @@
+.promo {
+    position: relative;
+    padding-top: 105px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        padding-top: 137px;
+    }
+    &__title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    &__text {
+        min-width: 360px;
+        margin-top: 32px;
+        font-size: 22px;
+        line-height: 33px;
+    }
+    &__actions {
+        margin-top: 50px;
+        .btn-link {
+            margin-left: 30px;
+        }
+    }
+    &__img {
+        margin-left: 24px;
+    }
+}

@@ -5,6 +5,7 @@
     font-weight: normal;
     border-radius: 40px;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn-light {
@@ -19,3 +20,48 @@
         @include gradient;
     }
 }
+
+.btn-dark {
+    padding: 13px 33px;
+    font-size: 16px;
+    color: #fff;
+    @include gradient;
+    &:hover {
+        color: #6852ED;
+        border: 1px solid #6852ED;
+        background: #fff;
+        text-decoration: none;
+    }
+}
+
+.btn-link {
+    border: none;
+    background: transparent;
+    color: #554D89;
+    font-size: 16px;
+    line-height: 24px;
+    &:hover {
+        color: #554D89;
+        text-shadow: 0 0 1px #6852ed;
+        text-decoration: none;
+    }
+    &::after {
+        content: url('../icons/long-arrow-right.svg');
+        margin-left: 15px;
+    }
+}
+
+.btn-down {
+    position: absolute;
+    bottom: 44px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 110px;
+    background: #6852ED;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

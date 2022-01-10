@@ -1,5 +1,9 @@
 .split {
     padding-top: 90px;
+    padding-bottom: 120px;
+    &-reverse {
+        padding-top: 80px;
+    }
     &__wrapper {
         display: flex;
         justify-content: space-between;

@@ -80,3 +80,20 @@
     align-items: center;
 }
 
+.btn-play {
+    padding: 25px 25px 25px 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.btn-play svg {
+    &:hover {
+        path {
+            fill: #6852ED;
+        }
+    }
+}
+

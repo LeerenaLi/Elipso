@@ -3,6 +3,14 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        &-mt {
+            margin-top: 30px;
+        }
     }
     &__card {
         width: 360px;
@@ -11,6 +19,7 @@
         box-shadow: 0px 0px 20px #E1E4ED;
         border-radius: 10px;
         padding: 30px;
+        margin-bottom: 30px;
         &:hover {
             @include gradient;
             box-shadow: 0px 0px 20px rgba(104, 82, 237, 0.8);
@@ -26,6 +35,9 @@
         }
         &:hover > .info__btn {
             display: block;
+        }
+        &-mt {
+            margin-top: 30px;
         }
     }
     &__icon {

@@ -1,0 +1,19 @@
+.servises {
+    padding-top: 80px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        max-width: 336px;
+        margin-left: 30px;
+    }
+    &__title {
+        margin-top: 110px;
+    }
+    &__descr {
+        color: #716C80;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+}

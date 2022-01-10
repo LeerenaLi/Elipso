@@ -51,6 +51,20 @@
     }
 }
 
+.btn-link_white {
+    padding-top: 30px;
+    color: #fff;
+    text-align: start;
+    &:hover {
+        color: #fff;
+        text-shadow: 0 0 1px #fff;
+        text-decoration: none;
+    }
+    &::after {
+        content: url('../icons/long-arrow-right-white.svg');
+    }
+}
+
 .btn-down {
     position: absolute;
     bottom: 44px;

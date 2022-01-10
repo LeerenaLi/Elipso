@@ -1,0 +1,45 @@
+.info {
+    padding-top: 93px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 360px;
+        min-height: 229px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px #E1E4ED;
+        border-radius: 10px;
+        padding: 30px;
+        &:hover {
+            @include gradient;
+            box-shadow: 0px 0px 20px rgba(104, 82, 237, 0.8);
+        }
+        &:hover > .info__icon {
+            display: none;
+        }
+        &:hover > .info__title {
+            color: #fff;
+        }
+        &:hover > .info__descr {
+            color: #fff;
+        }
+        &:hover > .info__btn {
+            display: block;
+        }
+    }
+    &__icon {
+        margin-bottom: 30px;
+    }
+    &__title {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    &__descr {
+        color: #716C80;
+        padding-top: 20px;
+    }
+    &__btn {
+        display: none;
+    }
+}

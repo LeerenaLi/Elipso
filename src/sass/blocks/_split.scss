@@ -1,0 +1,28 @@
+.split {
+    padding-top: 90px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+    &__content {
+        max-width: 515px;
+        margin-left: 70px;
+        &-reverse {
+            margin: 0;
+        }
+    }
+    &__title {
+        max-width: 412px;
+        margin-bottom: 31px;
+        &-reverse {
+            max-width: 500px;
+        }
+    }
+    &__actions {
+        margin-top: 56px; 
+    }
+}

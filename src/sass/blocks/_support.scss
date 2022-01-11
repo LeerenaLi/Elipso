@@ -1,0 +1,33 @@
+.support {
+    padding-top: 140px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        margin-right: 30px;
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+    }
+    &__content {
+        margin-left: 30px;
+    }
+    &__title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #554D89;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+    &__link {
+        text-align: left;
+        margin-left: 0;
+    }
+}

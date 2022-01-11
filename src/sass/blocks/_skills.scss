@@ -1,0 +1,35 @@
+.skills {
+    padding-top: 140px;
+    &__descr {
+        max-width: 554px;
+        margin-top: 32px;
+        margin-bottom: 68px;
+        color: #716C80;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__progress {
+        &-item {
+            margin-bottom: 30px;
+        }
+        &-bar {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-line {
+            width: 555px;
+            height: 6px;
+            background: rgba(225, 228, 237, 0.6);
+            border-radius: 2.5px;
+            span {
+                display: block;
+                height: 100%;
+                background: #6852ED;
+                border-radius: 2.5px 0px 0px 2.5px;
+            }
+        }
+    }
+}

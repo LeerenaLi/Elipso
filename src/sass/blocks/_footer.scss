@@ -1,0 +1,126 @@
+.footer {
+    min-height: 500px;
+    padding-top: 100px;
+    padding-bottom: 88px;
+    background: url('../../img/Bg3.jpg') center center no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts {
+        max-width: 360px;
+    }
+    &__title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #554D89;
+        margin-bottom: 30px;
+        &-white {
+            font-weight: 500;
+            color: #FFFFFF;
+        }
+    }
+    &__call {
+        display: flex;
+    }
+    &__phone {
+        margin-left: 20px;
+        &-descr {
+            font-size: 16px;
+            line-height: 21px;
+            color: #FFFFFF;
+        }
+        &-tel {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 33px;
+            color: #FFFFFF;
+            &:hover {
+                text-decoration: none;
+                color: #BA43FC;
+            }
+        }
+    }
+    &__adress {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
+    &__mail {
+        color: #FFFFFF;
+        &:hover {
+            text-decoration: none;
+            color: #BA43FC;
+        }
+    }
+    &__menu {
+        width: 300px;
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-li {
+            margin-bottom: 10px;
+        }
+        &-link {
+            color: #554D89;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+                text-shadow: 0 0 1px $main-color;
+            }
+        }
+    }
+    &__divider {
+        margin-top: 33px;
+        width: 99px;
+        height: 4px;
+        background: #E1DCFF;
+    }
+    &__copyright {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 27px;
+        color: #716C80;
+    }
+    &__form {
+        position: relative;
+    }
+    &__input {
+        width: 300px;
+        padding: 11px 12px 11px 24px;
+        border: 1px solid #6852ED;
+        box-sizing: border-box;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #716C80;
+        &:focus-visible {
+            outline: 2px solid #BA43FC;
+        }
+    }
+    &__btn {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        background: #fff;
+        border: none;
+    }
+    &__subscribe {
+        &-link {
+            margin-top: 30px;
+            display: block;
+            max-width: 263px;
+            font-size: 18px;
+            line-height: 27px;
+            color: #716C80;
+            opacity: 0.8;
+            &:hover {
+                text-decoration: none;
+                color: #BA43FC;
+            }
+        }
+    }
+}

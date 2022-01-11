@@ -1,0 +1,488 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 940px;
+    }
+    .promo {
+        padding-top: 90px;
+        &__img {
+            width: 60%;
+        }
+        &__content {
+            padding-top: 70px;
+            max-width: 340px;
+        }
+        &__title {
+            font-size: 46px;
+        }
+    }
+    .btn-down {
+        width: 90px;
+        height: 90px;
+    }
+    .info {
+        padding-top: 80px;
+        &__wrapper {
+            justify-content: space-evenly;
+        }
+        &__column {
+            order: 3;
+            &-mt {
+                order: 2;
+            }
+        }
+    }
+    .servises {
+        &__wrapper {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        &__card {
+            max-width: 80%;
+            order: 1;
+            margin-bottom: 80px;
+        }
+        &__title {
+            margin-top: 30px;
+        }
+    }
+    .split {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        &__img {
+            width: 45%;
+        }
+        &-reverse {
+            padding-bottom: 0;
+        }
+    }
+    .video {
+        height: 430px;
+    }
+    .skills {
+        padding: 110px 0;
+        &__descr {
+            max-width: 450px;
+        }
+        &__progress {
+            &-line {
+                width: 450px;
+            }
+        }
+    }
+    .call {
+        &__wrapper {
+            padding-top: 40px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        &__title {
+           margin-bottom: 20px;
+        }
+    }
+    .price {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        &__card {
+            margin-bottom: 30px;
+            &:nth-child(3) {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .footer {
+        &__contacts {
+            max-width: 280px;
+        }
+        &__menu {
+            max-width: 280px;
+        }
+        &__subscribe {
+            max-width: 280px;
+        }
+        &__input {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &-nav {
+            margin-bottom: 20px;
+        }
+    }
+    .promo {
+        padding-top: 50px;
+        &__img {
+            width: 55%;
+        }
+        &__title {
+            width: 320px;
+            font-size: 40px;
+        }
+        &__content {
+            padding-top: 50px;
+            max-width: 330px;
+        }
+        &__text {
+            font-size: 20px;
+            max-width: 330px;
+        }
+    }
+    .btn-down {
+        width: 80px;
+        height: 80px;
+        bottom: -30px;
+    }
+    .info {
+        &__card {
+            width: 340px;
+        }
+    }
+    .split {
+        &__content {
+            max-width: 350px;
+        }
+    }
+    .skills {
+        padding: 80px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        &__descr {
+            max-width: 600px;
+            margin-bottom: 45px;
+        }
+        &__progress {
+            margin-top: 80px;
+            &-line {
+                width: 600px;
+            }
+        }
+    }
+    .call {
+        &__title {
+            font-size: 20px;
+        }
+    }
+    .price {
+        padding-top: 100px;
+        &__card {
+            width: 340px;
+            padding: 50px;
+        }
+        &__val {
+            &-descr {
+                margin-bottom: 40px;
+            }
+        }
+        &__btn {
+            margin-top: 40px;
+        }
+    }
+    .support {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+    .footer {
+        padding-bottom: 40px;
+        padding-top: 0;
+        min-height: 100%;
+        background: url('../../img/Bg4.jpg') top center no-repeat;
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__contacts {
+            max-width: 100%;
+            margin-top: 20px;
+            margin-bottom: 60px;
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__adress {
+            margin-top: 40px;
+            margin-bottom: 2px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .top-header {
+        &__text {
+            font-size: 15px;
+        }
+        &__phone {
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+    .header {
+        &__logo {
+            margin-right: 30px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        &__content {
+            max-width: 100%;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+        &__title {
+            width: 100%;
+        }
+    }
+    .btn-down {
+        display: none;
+    }
+    .info {
+        padding-top: 40px;
+    }
+    .split {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        &__wrapper {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        &__content {
+            max-width: 100%;
+        }
+        &__title {
+            max-width: 100%;
+        }
+    }
+    .video {
+        &__play {
+            padding-top: 120px;
+        }
+    }
+    .servises {
+        &__card {
+            max-width: 100%;
+        }
+    }
+    .skills {
+        padding: 60px 0;
+        &__progress {
+            &-line {
+                width: 530px;
+            }
+        }
+    }
+    .call {
+        &__wrapper {
+            padding-top: 20px;
+        }
+        &__title {
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            width: 430px;
+        }
+    }
+    .price {
+        padding-top: 80px;
+    }
+    .support {
+        padding-top: 90px;
+        padding-bottom: 40px;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin-bottom: 40px;
+        }
+    }
+    .footer {
+        &__contacts {
+            order: 1;
+        }
+        &__menu {
+            order: 3;
+            max-width: 500px;
+            width: 100%;
+        }
+        &__subscribe {
+            order: 2;
+            margin-bottom: 50px;
+            max-width: 100%;
+            &-link {
+                max-width: 100%;
+            }
+        }
+        &__input {
+            width: 500px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .top-header {
+        &__wrapper {
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+        }
+        &__phone {
+            margin-top: 10px;
+        }
+    }
+    .header {
+        &-nav {
+            align-items: flex-start;
+        }
+        &__menu {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            &-item {
+                padding: 5px 0;
+                margin-right: 15px;
+                &:nth-child(3) {
+                    margin-right: 0;
+                }
+                &:hover {
+                    .header__submenu {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .promo {
+        padding-top: 30px;
+        &__text {
+            min-width: 0;
+            max-width: 300px;
+            font-size: 18px;
+        }
+    }
+    .btn-dark {
+        font-size: 14px;
+        padding: 13px 30px;
+    }
+    .btn-link {
+        font-size: 14px;
+        margin-left: 16px;
+    }
+    .split {
+        &__content {
+            margin-left: 0;
+        }
+        &__title {
+            margin-top: 30px;
+        }
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .video__play .btn-play {
+        padding: 25px 25px 25px 32px;
+        svg {
+            width: 20px;
+            height: auto;
+        }
+    }
+    .split {
+        padding-bottom: 60px;
+    }
+    .info {
+        padding-top: 0;
+        &__card {
+            width: 280px;
+        }
+    }
+    .servises {
+        &__card {
+            margin-left: 0;
+        }
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .skills {
+        padding: 40px 0;
+        &__progress {
+            &-line {
+                width: 280px;
+            }
+        }
+    }
+    .call {
+        &__title {
+            font-size: 14px;
+        }
+    }
+    .price {
+        &__card {
+            width: 280px;
+            padding: 35px;
+        }
+        &__val {
+            font-size: 44px;
+            line-height: 50px;
+            &-descr {
+                margin-bottom: 30px;
+            }
+        }
+        &__check {
+            &-text {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .support {
+        &__item {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-right: 0;
+        }
+        &__content {
+            margin-left: 0;
+            margin-top: 15px;
+        }
+        &__link {
+            margin-left: 0;
+        }
+    }
+    .footer {
+        &__adress {
+            font-size: 12px;
+            line-height: 20px;
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+        &__input {
+            width: 280px;
+        }
+        &__menu {
+            max-width: 280px;
+        }
+    }
+    
+}

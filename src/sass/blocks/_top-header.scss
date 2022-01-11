@@ -20,6 +20,7 @@
             &:hover {
                 text-decoration: none;
                 color: $main-color;
+                text-shadow: 0 0 1px $main-color;
             }
         }  
     }
